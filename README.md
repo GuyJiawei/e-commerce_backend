@@ -56,6 +56,6 @@
   - Email: guy.jiawei.anderson@gmail.com
 
   ## Demo
-  Full video at: https://drive.google.com/drive/folders/1wo8WE9C5EeIWv-RiO2m5RmX95_pGrTps?usp=sharing
+  Full video at: TBC
 
-  ![GIF](./Assets/Untitled_%20Feb%2019%2C%202023%2011_16%20AM.gif)
+  ![GIF](tbc)
