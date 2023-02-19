@@ -19,7 +19,7 @@
 
   ## Table of Contents
 
-  * [Installation/Usage](#installation)
+  * [Installation](#installation)
   * [Contributing](#contrubuting)
   * [License](#license)
   * [Questions](#questions)
