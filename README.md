@@ -19,13 +19,12 @@
 
   ## Table of Contents
 
-  * [Installation and Usage](#installation)
-  * [Usage](#usage)
+  * [Installation/Usage](#installation)
   * [Contributing](#contrubuting)
   * [License](#license)
   * [Questions](#questions)
 
-  ## Installation and Usage
+  ## Installation/Usage
 
   - Clone the repository and run an integrated terminal.
   - Enter 'npm i' to download and install the required dependencies.
