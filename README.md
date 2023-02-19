@@ -24,7 +24,7 @@
   * [License](#license)
   * [Questions](#questions)
 
-  ## Installation/Usage
+  ## Installation
 
   - Clone the repository and run an integrated terminal.
   - Enter 'npm i' to download and install the required dependencies.
