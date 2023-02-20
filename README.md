@@ -34,7 +34,7 @@
   - `DB_USER='root'`
   - Open an integrated terminal and enter `mysql -u root -p`, enter password to start MySQL.
   - Enter `source db/schema.sql` to create the database.
-  - Enter `npm run seed` to create the example data.
+  - Enter `node seeds/index.js` to create the example data.
   - In the terminal enter `node server.js` and the application will run.
 
   ## Contributing
