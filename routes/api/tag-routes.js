@@ -24,7 +24,7 @@ router.get('/:id', async (req, res) => {
       include: [{ model: Product }]
     });
 
-    if (!products) {
+    if (!tags) {
       res.status(404).json({ message: 'No tags found with this ID!' });
       return;
     }
@@ -48,18 +48,12 @@ router.post('/', async (req, res) => {
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
   try {
-    const [updatedTag] = await Tag.update(
-      { category_name: req.body.category_name },
-      { where: { id: req.params.id } }
+    const updateTag = await Tag.update(
+      req.body, { where: { id: req.params.id } }
     );
-    if (updatedTag === 1) {
-      res.status(200).json({ message: 'Tag Updated', status: 'success' });
-    } else {
-      res.status(404).json({ message: 'Tag not found', status: 'error' });
-    }
+    res.status(200).json(updateTag);
   } catch (err) {
-    console.error(err);
-    res.status(500).json({ message: 'An error occurred', status: 'error' });
+    res.status(400).json(err);
   }
 });
 
