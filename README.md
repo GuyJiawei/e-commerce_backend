@@ -3,7 +3,7 @@
   ![License Badge](https://img.shields.io/badge/license-MIT-green.svg)
 
   ## Description
-  E-commerce, the largest sector of the electronics industry, generated an estimated $29 trillion in 2019. To serve businesses of all sizes, e-commerce platforms like Shopify and WooCommerce provide a suite of services. This project aims to explain the fundamental architecture of such platforms.
+  To serve businesses of all sizes, e-commerce platforms like Shopify and WooCommerce provide a suite of services. This project aims to explain the fundamental architecture of such platforms.
 
   The E-commerce Backend is a REST API designed for an internet retail website. It's built on top of an Express.js server that uses Sequelize, a promise-based Node.js ORM, to interact with a MySQL database. Sequelize supports various relational databases like Postgres, MySQL, MariaDB, SQLite, and Microsoft SQL Server.
 
