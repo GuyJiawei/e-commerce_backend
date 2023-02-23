@@ -56,6 +56,6 @@
   - Email: guy.jiawei.anderson@gmail.com
 
   ## Demo
-  Full video at: TBC
+  Full video at: https://drive.google.com/drive/u/0/folders/1UyUEFB5XT-NMHoaMfX0TNRdzYaItLAao
 
-  ![GIF](tbc)
+  ![GIF](./assets/e-commerce_demo-gif.gif)
